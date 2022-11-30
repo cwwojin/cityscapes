@@ -1,4 +1,6 @@
-"""     DeepLabV3-Plus Model       """
+"""
+DeepLabV3-Plus Model
+"""
 
 import math
 import torch

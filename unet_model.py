@@ -1,5 +1,7 @@
-""" Full assembly of the parts to form the complete network """
-""" Parts of the U-Net model """
+"""
+UNet model implementation from
+https://github.com/milesial/Pytorch-UNet
+"""
 
 import torch
 import torch.nn as nn

@@ -1,7 +1,6 @@
 """
 loss function implementations from
 https://github.com/hubutui/DiceLoss-PyTorch
-
 """
 
 #!/usr/bin/env python
