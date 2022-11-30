@@ -3,7 +3,6 @@ FCN-32s model implementation from
 https://github.com/wkentaro/pytorch-fcn
 '''
 
-import os.path as osp
 
 #import fcn
 import numpy as np
