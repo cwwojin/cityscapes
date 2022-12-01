@@ -13,7 +13,7 @@ import torchvision
 def VGG16(pretrained=False):
     #model = torchvision.models.vgg16(pretrained=pretrained)
     if pretrained :
-        return torchvision.models.vgg16(weights='VGG16_Weights.IMAGENET1K_V1')
+        return torchvision.models.vgg16(weights='DEFAULT')
     else :
         return torchvision.models.vgg16()
         
@@ -44,7 +44,7 @@ def get_upsampling_weight(in_channels, out_channels, kernel_size):
 class FCN32s(nn.Module):
 
     def __init__(self, n_class=21):
-        super(FCN32s, self).__init__()
+        super(FCN32s, self).__init__()        
         # conv1
         self.conv1_1 = nn.Conv2d(3, 64, 3, padding=100)
         self.relu1_1 = nn.ReLU(inplace=True)
